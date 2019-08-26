@@ -1,5 +1,5 @@
-import { Observable } from '@node_modules/rxjs/internal/Observable';
-import { ObservableInput, SchedulerLike } from '@node_modules/rxjs/internal/types';
+import { Observable } from '@vendor/rxjs/internal/Observable';
+import { ObservableInput, SchedulerLike } from '@vendor/rxjs/internal/types';
 
 const rxjs: RxJsType = <RxJsType>window.rxjs;
 

@@ -1,7 +1,7 @@
 import React = require('react');
 import ReactDOM = require('react-dom');
-import rxjs = require('@node_modules/rxjs');
-import rxjsOps = require('@node_modules/rxjs/operators');
+import rxjs = require('@vendor/rxjs');
+import rxjsOps = require('@vendor/rxjs/operators');
 
 declare global {
     type RxJsType = typeof rxjs;
