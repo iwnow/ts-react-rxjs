@@ -21,7 +21,11 @@
         "baseUrl": ".",
         "paths": {
             "@libs": ["libs"],
-            "@libs/*": ["libs/*"]
+            "@libs/*": ["libs/*"],
+            "rxjs": ["vendors/rxjs"],
+            "rxjs/operators": ["vendors/rxjs/operators"],
+            "@node_modules": ["node_modules"],
+            "@node_modules/*": ["node_modules/*"]
         }
     },
     "exclude": [

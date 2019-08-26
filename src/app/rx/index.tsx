@@ -1,5 +1,5 @@
-import rx from '@libs/rxjs';
-import op from '@libs/rxjs/operators';
+import rx from 'rxjs';
+import op from 'rxjs/operators';
 import React from 'react';
 
 const source$ = rx.interval(1000).pipe(
