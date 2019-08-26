@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "forceConsistentCasingInFileNames": true,
+        "jsx": "react",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "noImplicitAny": false,
+        "outDir": "./dist",
+        "preserveConstEnums": true,
+        "target": "es5",
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "allowJs": true,
+        "lib": [
+            "dom",
+            "esnext"
+        ],
+        "baseUrl": ".",
+        "paths": {
+            "@libs": ["libs"],
+            "@libs/*": ["libs/*"]
+        }
+    },
+    "exclude": [
+        "node_modules",
+    ]
+}

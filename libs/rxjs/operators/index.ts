@@ -1,0 +1,1 @@
+export default (<RxJsOperatorsType>window.rxjs).operators;
